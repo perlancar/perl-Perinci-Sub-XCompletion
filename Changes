@@ -1,5 +1,13 @@
 Revision history for Perinci-Sub-XCompletion
 
+0.02    2015-04-02 (PERLANCAR)
+
+	- No functional changes.
+
+	- [dist] Force minimum version of Complete::Util for convenience
+	  (one that has file_regex_filter).
+
+
 0.01     2015-04-02 (PERLANCAR)
 
          - First release.
