@@ -6,6 +6,20 @@ package Perinci::Sub::XCompletion;
 1;
 # ABSTRACT: Write completion routines in x.{element_,}completion attributes
 
+=head1 SYNOPSIS
+
+In L<Rinci> metadata:
+
+ args => {
+     foo => {
+         ...
+         'x.completion' => [filename => {file_regex_filter=>qr/\.(yaml|yml)$/i}],
+     },
+     ...
+ },
+ ...
+
+
 =head1 DESCRIPTION
 
 This is a module to support an experimental (and temporary?) way to ease writing
