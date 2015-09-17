@@ -7,7 +7,7 @@ use 5.010001;
 use strict;
 use warnings;
 
-use Complete::Util qw(complete_file);
+use Complete::File qw(complete_file);
 
 our %SPEC;
 
