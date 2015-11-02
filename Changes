@@ -1,5 +1,13 @@
 Revision history for Perinci-Sub-XCompletion
 
+0.03    2015-11-03 (PERLANCAR)
+
+	- No functional changes.
+
+	- Adjust to Complete::Util 0.36 (complete_file() split to
+	  Complete-File).
+
+
 0.02    2015-04-02 (PERLANCAR)
 
 	- No functional changes.
