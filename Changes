@@ -1,5 +1,12 @@
 Revision history for Perinci-Sub-XCompletion
 
+0.05    2015-11-06 (PERLANCAR)
+
+	- No functional changes.
+
+	- [dist] Forgot to update prereq Complete::File minimum version.
+
+
 0.04    2015-11-06 (PERLANCAR)
 
 	- Add dirname.
