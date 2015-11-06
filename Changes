@@ -1,5 +1,10 @@
 Revision history for Perinci-Sub-XCompletion
 
+0.04    2015-11-06 (PERLANCAR)
+
+	- Add dirname.
+
+
 0.03    2015-11-03 (PERLANCAR)
 
 	- No functional changes.
