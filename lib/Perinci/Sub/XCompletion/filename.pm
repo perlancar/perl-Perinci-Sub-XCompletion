@@ -18,7 +18,10 @@ sub gen_completion {
     my %fargs = @_;
     sub {
         my %cargs = @_;
-        complete_file(%cargs, %fargs);
+        hashify_answer(
+            complete_file(%cargs, %fargs),
+            {path_sep => '/'},
+        );
     };
 }
 

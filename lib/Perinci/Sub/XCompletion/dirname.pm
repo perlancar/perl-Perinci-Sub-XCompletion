@@ -7,6 +7,7 @@ use 5.010001;
 use strict;
 use warnings;
 
+use Complete::Util qw(hashify_answer);
 use Complete::File qw(complete_dir);
 
 our %SPEC;
@@ -18,7 +19,10 @@ sub gen_completion {
     my %fargs = @_;
     sub {
         my %cargs = @_;
-        complete_dir(%cargs, %fargs);
+        hashify_answer(
+            complete_dir(%cargs, %fargs),
+            {path_sep => '/'},
+        );
     };
 }
 
