@@ -1,5 +1,12 @@
 Revision history for Perinci-Sub-XCompletion
 
+0.06    2016-07-22 (PERLANCAR)
+
+	- Add completion for riap_url.
+
+	- Enable path-mode when completing file/dir.
+
+
 0.05    2015-11-06 (PERLANCAR)
 
 	- No functional changes.
