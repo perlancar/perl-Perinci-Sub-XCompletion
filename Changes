@@ -1,3 +1,11 @@
+0.07    2017-01-15 (PERLANCAR)
+
+        - x.completion et al can also be a coderef like Rinci argument spec's
+	  'completion' property.
+
+	- Mention x.index_completion.
+
+
 0.06    2016-07-22 (PERLANCAR)
 
 	- Add completion for riap_url.
