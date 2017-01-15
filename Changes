@@ -1,3 +1,10 @@
+0.08    2017-01-15 (PERLANCAR)
+
+        - [Bugfix] Forgot to import hashify_answer().
+
+        - Add submodule: perl_modname.
+
+
 0.07    2017-01-15 (PERLANCAR)
 
         - x.completion et al can also be a coderef like Rinci argument spec's
