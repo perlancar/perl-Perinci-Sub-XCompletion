@@ -24,7 +24,7 @@ sub gen_completion {
             find_pod    => 0,
             find_prefix => 1,
             %cargs, %fargs,
-        ),
+        );
     };
 }
 

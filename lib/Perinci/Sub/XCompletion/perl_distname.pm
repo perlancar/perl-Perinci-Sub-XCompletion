@@ -18,7 +18,7 @@ sub gen_completion {
     my %fargs = @_;
     sub {
         my %cargs = @_;
-        complete_dist(%cargs, %fargs),
+        complete_dist(%cargs, %fargs);
     };
 }
 

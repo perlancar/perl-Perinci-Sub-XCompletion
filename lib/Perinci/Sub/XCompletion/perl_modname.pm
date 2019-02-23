@@ -18,7 +18,7 @@ sub gen_completion {
     my %fargs = @_;
     sub {
         my %cargs = @_;
-        complete_module(%cargs, %fargs),
+        complete_module(%cargs, %fargs);
     };
 }
 
