@@ -1,13 +1,15 @@
 package Perinci::Sub::XCompletion::riap_url;
 
-# DATE
-# VERSION
-
 use 5.010001;
 use strict;
 use warnings;
 
 use Complete::Riap ();
+
+# AUTHORITY
+# DATE
+# DIST
+# VERSION
 
 our %SPEC;
 
@@ -24,6 +26,8 @@ sub gen_completion {
 
 1;
 #ABSTRACT: Generate completion for Riap URL
+
+=for Pod::Coverage ^(.+)$
 
 =head1 SYNOPSIS
 

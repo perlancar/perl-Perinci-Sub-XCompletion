@@ -1,14 +1,16 @@
 package Perinci::Sub::XCompletion::dirname;
 
-# DATE
-# VERSION
-
 use 5.010001;
 use strict;
 use warnings;
 
 use Complete::Util qw(hashify_answer);
 use Complete::File qw(complete_dir);
+
+# AUTHORITY
+# DATE
+# DIST
+# VERSION
 
 our %SPEC;
 
@@ -28,6 +30,8 @@ sub gen_completion {
 
 1;
 # ABSTRACT: Generate completion for dirname
+
+=for Pod::Coverage ^(.+)$
 
 =head1 SYNOPSIS
 

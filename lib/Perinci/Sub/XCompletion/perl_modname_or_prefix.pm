@@ -1,13 +1,15 @@
 package Perinci::Sub::XCompletion::perl_modname_or_prefix;
 
-# DATE
-# VERSION
-
 use 5.010001;
 use strict;
 use warnings;
 
 use Complete::Module qw(complete_module);
+
+# AUTHORITY
+# DATE
+# DIST
+# VERSION
 
 our %SPEC;
 
@@ -30,6 +32,8 @@ sub gen_completion {
 
 1;
 # ABSTRACT: Generate completion for perl module name or prefix
+
+=for Pod::Coverage ^(.+)$
 
 =head1 SYNOPSIS
 

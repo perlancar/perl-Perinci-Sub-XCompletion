@@ -1,6 +1,10 @@
 package Perinci::Sub::XCompletion;
 
+use strict;
+
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 1;
