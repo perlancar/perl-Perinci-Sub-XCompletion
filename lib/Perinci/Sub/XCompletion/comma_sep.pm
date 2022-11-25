@@ -69,8 +69,20 @@ sub gen_completion {
 
 =head1 SYNOPSIS
 
+In L<argument specification|Rinci::function/"args (function property)"> of your
+L<Rinci> L<function metadata|Rinci::function>:
+
+ # complete a comma-separated list of unix users
+ 'x.completion' => [comma_sep => {xcompletion => 'unix_user'}],
+
+ # complete an argument in the form of FILENAME,UNIX_USER,WORDLIST_MODULE_NAME
+ 'x.completion' => [comma_sep => {xcompletions => ['filename', 'unix_user', [perl_modname => {ns_prefix=>"WordList"}]]}],
+
 
 =head1 DESCRIPTION
+
+This completion lets you string several completions together in a
+comma-separated list.
 
 
 =head1 PARAMETERS
@@ -100,5 +112,10 @@ Example:
  xcompletions => ['filename', 'unix_user', [perl_modname => {ns_prefix=>"WordList"}]],
 
 Either this parameter or L</xcompletion> must be specified.
+
+
+=head1 SEE ALSO
+
+L<Complete::Sequence>
 
 =cut

@@ -37,9 +37,23 @@ sub gen_completion {
 
 =head1 SYNOPSIS
 
+In L<argument specification|Rinci::function/"args (function property)"> of your
+L<Rinci> L<function metadata|Rinci::function>:
+
+ 'x.completion' => 'perl_modname_or_prefix',
+
+
 
 =head1 DESCRIPTION
 
-This creates a completion from list of installed module names or prefixes.
+This creates a completion from list of installed module names or prefixes. It
+uses L<Complete::Module>'s C<complete_module> with these options:
+
+            find_pm     => 1,
+            find_pmc    => 1,
+            find_pod    => 1,
+            find_prefix => 1,
+
+See the function's documentation for list of known arguments.
 
 =cut

@@ -31,9 +31,16 @@ sub gen_completion {
 
 =head1 SYNOPSIS
 
+In L<argument specification|Rinci::function/"args (function property)"> of your
+L<Rinci> L<function metadata|Rinci::function>:
+
+ 'x.completion' => 'perl_distname',
+
 
 =head1 DESCRIPTION
 
-This creates a completion from list of installed distribution names.
+This creates a completion from list of installed distribution names. It passes
+arguments to L<Complete::Dist>'s C<complete_dist>. See its documentation for
+list of known arguments.
 
 =cut

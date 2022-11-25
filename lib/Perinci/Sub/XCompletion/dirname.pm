@@ -29,10 +29,24 @@ sub gen_completion {
 }
 
 1;
-# ABSTRACT: Generate completion for dirname
+# ABSTRACT: Generate completion for directory name
 
 =for Pod::Coverage ^(.+)$
 
-=head1 SYNOPSIS
+In L<argument specification|Rinci::function/"args (function property)"> of your
+L<Rinci> L<function metadata|Rinci::function>:
+
+ 'x.completion' => 'dirname',
+
+Do not include dotdirs:
+
+ 'x.completion' => ['dirname' => {allow_dot=>0}],
+
+
+=head1 DESCRIPTION
+
+This completion passes arguments to L<Complete::File>'s
+L<complete_dir|Complete::File/complete_dir>, so see the documentation of that
+module for list of known arguments.
 
 =cut

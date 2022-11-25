@@ -31,9 +31,16 @@ sub gen_completion {
 
 =head1 SYNOPSIS
 
+In L<argument specification|Rinci::function/"args (function property)"> of your
+L<Rinci> L<function metadata|Rinci::function>:
+
+ 'x.completion' => 'perl_podname',
+
 
 =head1 DESCRIPTION
 
-This creates a completion from list of installed POD names.
+This creates a completion from list of installed Perl POD names. It passes
+arguments to L<Complete::Module>'s C<complete_module>. See its documentation for
+list of known arguments.
 
 =cut
