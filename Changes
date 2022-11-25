@@ -1,3 +1,13 @@
+0.103   2022-11-25  Released-By: PERLANCAR; Urgency: medium
+
+        - Split perl_* and riap_* xcompletion modules to separate dists, to
+          minimize dependencies.
+
+        - [ux][doc] Give Synopsis to the XCompletion modules.
+
+        - Add xcompletion comma_sep (preliminary version).
+
+
 0.102   2019-06-03  Released-By: PERLANCAR
 
 	- Add completion: perl_podname.
